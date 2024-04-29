@@ -17,7 +17,6 @@ public class Main {
         loggin.setVisible(true);
         loggin.setLocationRelativeTo(null);
         
-       
         }
         
         
