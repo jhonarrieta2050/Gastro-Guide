@@ -104,7 +104,7 @@ public class Inicio extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Sitka Text", 3, 24)); // NOI18N
         jLabel3.setText("Inicio");
 
-        jLabel4.setText("1");
+        jLabel4.setText("123");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
