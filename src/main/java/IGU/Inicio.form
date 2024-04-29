@@ -172,18 +172,10 @@
             </Component>
             <Component class="javax.swing.JLabel" name="iconoConfigBtn">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Usuario\OneDrive\Documentos\NetBeansProjects\Gastro-Guide\src\main\java\Imagenes\icons8-microsoft-to-do-app-50.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="jLabel2"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="iconoPerfilBtn">
-              <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Usuario\OneDrive\Documentos\NetBeansProjects\Gastro-Guide\src\main\java\Imagenes\icons8-admin-settings-male-64.png"/>
-                </Property>
-              </Properties>
             </Component>
           </SubComponents>
         </Container>
@@ -238,36 +230,22 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Yu Gothic UI Semibold" size="36" style="1"/>
                 </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" red="0" type="rgb"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Gastro-Guide"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel5">
-              <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Usuario\OneDrive\Documentos\NetBeansProjects\Gastro-Guide\src\main\java\Imagenes\inicioImagen2.jpg"/>
-                </Property>
-              </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Sitka Text" size="24" style="3"/>
                 </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" red="0" type="rgb"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Inicio"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Usuario\OneDrive\Documentos\NetBeansProjects\Gastro-Guide\src\main\java\Imagenes\icons8-home-64.png"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="jLabel4"/>
+                <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -301,11 +279,6 @@
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="iconoCerrarSesionBtn">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Usuario\OneDrive\Documentos\NetBeansProjects\Gastro-Guide\src\main\java\Imagenes\icons8-logout-64.png"/>
-            </Property>
-          </Properties>
         </Component>
       </SubComponents>
     </Container>

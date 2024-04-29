@@ -64,10 +64,7 @@ public class Inicio extends javax.swing.JFrame {
             }
         });
 
-        iconoConfigBtn.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\OneDrive\\Documentos\\NetBeansProjects\\Gastro-Guide\\src\\main\\java\\Imagenes\\icons8-microsoft-to-do-app-50.png")); // NOI18N
         iconoConfigBtn.setText("jLabel2");
-
-        iconoPerfilBtn.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\OneDrive\\Documentos\\NetBeansProjects\\Gastro-Guide\\src\\main\\java\\Imagenes\\icons8-admin-settings-male-64.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -102,17 +99,12 @@ public class Inicio extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(153, 204, 255));
         jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Gastro-Guide");
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\OneDrive\\Documentos\\NetBeansProjects\\Gastro-Guide\\src\\main\\java\\Imagenes\\inicioImagen2.jpg")); // NOI18N
-
         jLabel3.setFont(new java.awt.Font("Sitka Text", 3, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Inicio");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\OneDrive\\Documentos\\NetBeansProjects\\Gastro-Guide\\src\\main\\java\\Imagenes\\icons8-home-64.png")); // NOI18N
-        jLabel4.setText("jLabel4");
+        jLabel4.setText("1");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -157,8 +149,6 @@ public class Inicio extends javax.swing.JFrame {
                 btnLogOutActionPerformed(evt);
             }
         });
-
-        iconoCerrarSesionBtn.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\OneDrive\\Documentos\\NetBeansProjects\\Gastro-Guide\\src\\main\\java\\Imagenes\\icons8-logout-64.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
