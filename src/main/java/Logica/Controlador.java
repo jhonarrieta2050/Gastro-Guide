@@ -213,6 +213,42 @@ public class Controlador {
 
     return Error;
 }
+
+    public boolean validarNombre(String nombre) {
+       
+        ArrayList<Usuario> listaUsuariosCambio = baseDatos.obtenerBaseDatos();
+        
+        for(Usuario usuario : listaUsuariosCambio){
+            if(usuario.getName().equals(nombre)){       
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean CompararContrasena(String contrasena, String contrasenaP, String usuarioRecover) {
+        
+         ArrayList<Usuario> listaUsuariosCambio = baseDatos.obtenerBaseDatos();
+         
+         if(!contrasena.equals(contrasenaP)){
+             throw new IllegalArgumentException("La contrasenas ingresadas no concuerdan, intentelo nuevamente");
+             
+             
+         }
+         
+         for(Usuario usuario : listaUsuariosCambio ){
+             if(usuario.getName().equals(usuarioRecover)){
+             
+             usuario.setContrasena(contrasena);
+             
+             baseDatos.guardarBaseDatos(listaUsuariosCambio);
+             
+             return true;
+             }
+         }
+         
+         return false;
+    }
     
     
 }

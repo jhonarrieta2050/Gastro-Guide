@@ -4,11 +4,15 @@ import Logica.Controlador;
 import javax.swing.JOptionPane;
 import Persistencia.BaseDatos;
 public class Loggin extends javax.swing.JFrame {
-Register registro = new Register();
-Inicio inicio = new Inicio();
+
+    
+    Register registro = new Register();
+    Inicio inicio = new Inicio();
+    PasswordRecover recover = new PasswordRecover();
 
 
-private Controlador controlador;
+    private Controlador controlador;
+
 
     public Loggin() {
         initComponents();
@@ -65,6 +69,11 @@ private Controlador controlador;
         jButton1.setForeground(new java.awt.Color(102, 102, 102));
         jButton1.setText("Olvido su contraseña?");
         jButton1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setFont(new java.awt.Font("Segoe UI Light", 0, 24)); // NOI18N
@@ -226,6 +235,16 @@ private Controlador controlador;
     private void emailTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emailTextActionPerformed
         
     }//GEN-LAST:event_emailTextActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+            
+        this.setVisible(false);
+        
+        recover.setControl(controlador);
+        recover.setLoggin(this);
+        recover.setVisible(true);
+        recover.setLocationRelativeTo(null);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
