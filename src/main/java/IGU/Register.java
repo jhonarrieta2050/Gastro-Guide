@@ -59,7 +59,6 @@ public class Register extends javax.swing.JFrame {
         ImagenContainer.setPreferredSize(new java.awt.Dimension(1200, 888));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\OneDrive\\Documentos\\NetBeansProjects\\Gastro-Guide\\src\\main\\java\\Imagenes\\helado.png")); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
